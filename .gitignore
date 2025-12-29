@@ -1,0 +1,27 @@
+# Ignore data folder containing datasets
+# This prevents large or sensitive datasets from being committed
+data/
+
+# Virtual environments
+.venv/
+venv/
+
+# Outputs, models, and artifacts
+outputs/
+models/
+plots/
+sample_predictions/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
